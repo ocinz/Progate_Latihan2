@@ -4,6 +4,7 @@ footer {
   padding: 80px 138px;
   color: beige;
   column-gap: 139px;
+  border-radius: 30px 30px 0 0;
 }
 .logos {
   width: 335px;

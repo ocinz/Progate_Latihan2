@@ -3,11 +3,10 @@ body {
   font-family: "Lato";
 }
 header {
-  background-color: rgba(20, 54, 66, 0.7);
   background-image: url(images/Coffe\ Header.png);
   color: beige;
   background-size: cover;
-  padding-bottom: 240px;
+  border-radius: 0 0 30px 30px;
 }
 header nav {
   display: flex;
@@ -51,6 +50,14 @@ header .jumbotron p {
   letter-spacing: 0em;
   text-align: center;
   margin: 0;
+  padding-bottom: 240px;
+}
+header nav,
+header .jumbotron {
+  background: rgba(20, 54, 66, 0.7);
+}
+header .jumbotron {
+  border-radius: 0 0 30px 30px;
 }
 .content {
   padding: 100px 257px;
